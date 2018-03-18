@@ -8,3 +8,4 @@
 - Eletrônica digital
 - Matemática discreta
 - Lógica
+- Estatística
