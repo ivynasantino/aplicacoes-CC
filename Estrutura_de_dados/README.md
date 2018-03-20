@@ -33,6 +33,6 @@
 - Algoritmos com ordem estatística:
   - K-esimo maior elemento de uma heap
   - K-esimo menor em uma BST
-  - Classificação de array
+  - Classificação de array
 
 - Algoritmos com busca em largura e profundidade
