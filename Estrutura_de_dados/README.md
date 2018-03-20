@@ -16,7 +16,7 @@
   - Pilha
   - Fila
   - Fila circular
-  - Variações
+  - Variações
 
 - Lista encadeadas
 
