@@ -1,7 +1,7 @@
 '''
-O objetivo do insertion sort é criar uma sub-lista ordenada no inicio 
+O objetivo do insertion sort e criar uma sub-lista ordenada no inicio 
 de uma lista, e ir inserindo nessa sub-lista os elementos na ordem correta,
-até que a sub-lista contenha todos os elementos da lista, fazendo com que
+ate que a sub-lista contenha todos os elementos da lista, fazendo com que
 a mesma esteja ordenada
 
 Complexidade:
@@ -10,7 +10,7 @@ Complexidade:
 	melhor caso: O(n)
 	
 Nao eh indicado para ordenar listas de tamanho elevado, mas eh o mais 
-rápido entre os algoritmos de ordenacao O(n^2).
+rapido entre os algoritmos de ordenacao O(n^2).
 '''
 
 def insertion_sort(lista, inicio, fim):

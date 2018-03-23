@@ -1,5 +1,5 @@
 '''
-O principal do selection sort é colocar o menor elemento de uma lista
+O principal objetivo do selection sort é colocar o menor elemento de uma lista
 na primeira posicao nao ordenada.
 
 Complexidade:
