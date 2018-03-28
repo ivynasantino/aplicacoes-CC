@@ -1,11 +1,16 @@
-  Repositório para demonstrar algoritmos e suas possíveis aplicações, visto nas disciplinas do curso de ciência da computação da UFCG
+### Cálculo
 
-### Conteúdos:
-- Teoria da computação
-- Estrutura de dados
-- Sistemas de informação
-- Teoria dos grafos
-- Eletrônica digital
-- Matemática discreta
-- Lógica
-- Estatística
+### Índice:
+
+- Pré-cálculo:
+  - Preencher
+
+- Limites:
+
+- Derivadas:
+
+- Integral:
+
+- Séries:
+
+- Funções vetoriais:
