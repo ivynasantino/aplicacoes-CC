@@ -1,11 +1,14 @@
-  Repositório para demonstrar algoritmos e suas possíveis aplicações, visto nas disciplinas do curso de ciência da computação da UFCG
+# Grafos
 
-### Conteúdos:
-- Teoria da computação
-- Estrutura de dados
-- Sistemas de informação
-- Teoria dos grafos
-- Eletrônica digital
-- Matemática discreta
-- Lógica
-- Estatística
+### Índice:
+
+- Introdução a grafos
+- Caminhos
+- Colorações
+- Grafos conexos
+- Matriz de adjacência
+- Matriz de incidência
+- Árvores
+- Algoritmo Dijkstra
+- Busca em largura
+- Busca em profundidade
