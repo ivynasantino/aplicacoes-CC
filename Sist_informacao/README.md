@@ -3,10 +3,20 @@
 ### Índice:
 
 - Padrões de projeto:
-  - Singleton
-  - Strategy
-  - Facade
-  - Adapter
-  - ...
-  
+  - Criação
+    - Abstract Method
+    - Factory Method
+    - Singleton
+  - Comportamento
+    - Iterator
+    - Null Object
+    - Observer
+    - State
+    - Strategy
+    - Template Method
+  - Estrutura
+    - Adapter
+    - Bridge
+    - Facade
+    - Proxy  
 
