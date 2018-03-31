@@ -1,48 +1,37 @@
 # coding: utf-8
-
 __author__ = "Ivyna Santino"
 
 '''
 Estrutura de dados do tipo LIFO(last-in, first-out), ou seja,
 o último elemento a ser inserido é o primeiro a sair.
 
+Nessa implementação, a pilha possui espaço para 5 valores.
 '''
-# Vamos trabalhar com a pilha de 5 espaços
+
 pilha = []
 top = -1
+capacity = 5
 
 def topo():
-	saida = vazia()
-	if (saida == False):
-		saida = pilha[top]
-		
-	return saida
+	if (vazia() == False):
+		return pilha[top]
 	
 def vazia():
-	saida = False
-	if (len(pilha) == 0):
-		saida = "Pilha vazia"
-	return saida
+	return (top == -1)
 
 def completa():
-	saida = False
-	if (len(pilha) == 5):
-		saida = "Pilha completa"
-	return saida
+	return (top == capacity - 1)
 
 def empilha(valor):
-	pilhaCheia = completa()
-	saida = pilhaCheia
-	if (pilhaCheia == False):
+	if (completa() == False):
 		pilha.append(valor)
-		saida = pilha
-	
-	return saida
+		global top
+		top += 1
+	return pilha
 		
 def desempilha():
-	pilhaVazia = vazia()
-	saida = pilhaVazia
-	if (pilhaVazia == False):
-		pilha.remove(pilha[-1])	
-		saida = pilha
-	return saida
+	if (vazia() == False):
+		pilha.remove(pilha[-1])
+		global top
+		top -= 1
+	return pilha
