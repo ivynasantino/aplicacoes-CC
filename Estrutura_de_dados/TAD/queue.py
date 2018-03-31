@@ -8,27 +8,34 @@ first out), ou seja, o primeiro a entrar será o primeiro a sair.
 Nessa implementação, a fila possui espaço para 5 valores.
 '''
 
-queue = [1]
-tail = -1
+queue = []
+capacity = 5
+head = -1
 
-def head():
-	if (isEmpty != False):
-		return queue[0]
+def queueHead():
+	if (isEmpty() == False):
+		return queue[head]
 		
 def isEmpty():
-	return (len(queue) == 0)
+	return (head == -1)
 	
 def isFull():
-	return (len(queue) == 5)
+	return (len(queue) == capacity)
 
 def enqueue(value):
 	if (isFull() == False):
 		queue.append(value)
+		if (isEmpty() == True):
+			global head
+			head += 1
 	return queue
 
 def dequeue():
 	if (isEmpty() == False):
-		queue.remove(queue[0])
+		queue.pop(0)
+		if (len(queue) == 0):
+			global head
+			head -= 1
 
 	return queue
 	
