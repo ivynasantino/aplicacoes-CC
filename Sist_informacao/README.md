@@ -5,10 +5,15 @@
 - Padrões de projeto:
   - Criação
     - Abstract Method
+    - Builder
     - Factory Method
+    - Prototype
     - Singleton
   - Comportamento
+    - Chain of responsibility
+    - Command
     - Iterator
+    - Mediator
     - Null Object
     - Observer
     - State
@@ -17,6 +22,9 @@
   - Estrutura
     - Adapter
     - Bridge
+    - Composite
+    - Decorator
     - Facade
+    - Flyweight
     - Proxy  
 
