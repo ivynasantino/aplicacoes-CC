@@ -6,7 +6,7 @@
   - Criação
     - Abstract Method
     - Builder
-    - Factory Method
+    - [Factory Method](factoryMethod.py)
     - Prototype
     - Singleton
   - Comportamento
@@ -27,4 +27,3 @@
     - Facade
     - Flyweight
     - Proxy  
-

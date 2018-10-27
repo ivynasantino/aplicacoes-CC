@@ -2,19 +2,19 @@
 
 ### Índice:
 
-- Algoritmos de ordenação:
-  - Bubble sort
-  - Insertion sort
-  - Selection sort
-  - Quick sort
-  - Merge sort
-  - Counting sort
+- [Algoritmos de ordenação](algoritmos_ordenacao/):
+  - [Bubble sort](algoritmos_ordenacao/bubble_sort.py)
+  - [Insertion sort](algoritmos_ordenacao/insertion_sort.py)
+  - [Selection sort](algoritmos_ordenacao/selection_sort.py)
+  - [Quick sort](algoritmos_ordenacao/quick_sort.py)
+  - [Merge sort](algoritmos_ordenacao/merge_sort.py)
+  - [Counting sort](algoritmos_ordenacao/counting_sort.py)
   - Bucket sort
   - Radix sort
-  
-- TAD:
-  - Pilha
-  - Fila
+
+- [TAD](TAD/):
+  - [Pilha](TAD/stack.py)
+  - [Fila](TAD/queue.py)
   - Fila circular
   - Variações
 
@@ -27,7 +27,7 @@
   - AVL
   - Heap
   - PV
-  
+
 - Skip list
 
 - Algoritmos com ordem estatística:

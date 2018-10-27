@@ -2,12 +2,15 @@
 
 ### Índice:
 
+- [Identificador de Sequencia](Identificador%20de%20Sequencia%20Dada/)
+- [Ordenadores](Ordenadores/)
+
 - Conversão de bases:
   - Binário
-  - Decimal 
+  - Decimal
   - Octal
   - Hexa
-  
+
 - Portas lógicos:
   - AND
   - OR
@@ -20,5 +23,3 @@
 - Mux e demux
 - Somadores
 - Flip flop
-
-  
