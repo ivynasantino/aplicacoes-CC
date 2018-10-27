@@ -8,7 +8,7 @@
   - [Selection sort](algoritmos_ordenacao/selection_sort.py)
   - [Quick sort](algoritmos_ordenacao/quick_sort.py)
   - [Merge sort](algoritmos_ordenacao/merge_sort.py)
-  - [Counting sort](counting_sort.py)
+  - [Counting sort](algoritmos_ordenacao/counting_sort.py)
   - Bucket sort
   - Radix sort
 
