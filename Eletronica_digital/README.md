@@ -2,7 +2,7 @@
 
 ### Índice:
 
-- [Identificador de Sequencia]("Identificador de Sequencia Dada"/)
+- [Identificador de Sequencia](Identificador%20de%20Sequencia%20Dada/)
 - [Ordenadores](Ordenadores/)
 
 - Conversão de bases:
