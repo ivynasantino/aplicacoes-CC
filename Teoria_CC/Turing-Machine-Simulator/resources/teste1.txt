@@ -1,0 +1,28 @@
+!! Este codigo testa palavras a^nb^nc
+q0 a x r q1
+q0 y * r q4
+q0 b * * qr
+q0 c * * qr
+q0 _ * * qa
+!! testando se os comentarios quebram no meio dos comandos
+q1 a * r q1 !! aqui nao da erro
+q1 y * r q1
+q1 b y r q2
+q1 c * * qr
+q2 b * r q2
+q2 z * r q2
+q2 c z l q3
+q2 _ * * qr
+q3 z * l q3
+q3 b * l q3
+q3 y * l q3
+q3 a * l q3
+q3 x * r q0
+q4 y * r q4
+q4 z * r q4
+q4 _ * l qa
+q4 b * * qr
+q4 c * * qr
+qa * * * qa
+qr * * * qr
+!! /home/sergiosd/Área de Trabalho/tcTemp/tms/turingMachineSimulator/resources/teste2.txt

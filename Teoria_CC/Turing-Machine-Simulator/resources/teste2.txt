@@ -1,0 +1,24 @@
+!! palindromos binarios
+q0 0 _ r q1
+q0 1 _ r q4
+q0 _ _ * qa
+q1 _ _ l q2
+q1 0 0 r q1
+q1 1 1 r q1
+q2 0 _ l q3
+q2 _ _ r qa
+q2 1 1 r qr
+q3 _ * l q0
+q3 0 0 r q3
+q3 1 1 r q3
+q4 1 1 r q4
+q4 0 0 r q4
+q4 _ _ l q5
+q5 1 _ l q6
+q5 0 0 * qr
+q5 _ _ * qa
+q6 0 0 l q6
+q6 1 1 l q6
+q6 _ _ r q0
+qa * * * qa
+qr * * * qr
