@@ -11,7 +11,9 @@ Comentário: Uma breve descrição do que é o algoritmo [Importante]
 Algoritmo()...
 
 ```
+Além disso, ao adicionar um novo conteúdo, lembre de atualizar o README da pasta em que o mesmo foi adicionado, especificando o que você adicionou com um link para o conteúdo. Assim você mantém o modelo existente e facilita que as pessoas encontrem as soluções que estão buscando :blush:
+
 ### Pode ser em qualquer linguagem?
 Sim, mas não faz cag** ok? Deixa o código bonito, lembra que o repositório está aberto e outras pessoas precisam compreender o que está sendo exposto.
 
-#### Por enquanto é isso. Se tiverem sugestões que melhorem a dinâmica do aplicações-cc, entra em contato tá? :)
+#### Por enquanto é isso. Se tiverem sugestões que melhorem a dinâmica do aplicações-cc, entra em contato tá? :satisfied:
