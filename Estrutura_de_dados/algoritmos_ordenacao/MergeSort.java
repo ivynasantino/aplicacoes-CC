@@ -1,6 +1,23 @@
 import java.util.LinkedList;
 import java.util.List;
 
+/*
+Sua ideia básica consiste em Dividir (o problema em vários subproblemas e resolver esses subproblemas através da 
+recursividade) e Conquistar (após todos os subproblemas terem sido resolvidos ocorre a conquista que é a união das 
+esoluções dos subproblemas). Como o algoritmo Merge Sort usa a recursividade, há um alto consumo de memória e tempo 
+de execução, tornando esta técnica não muito eficiente em alguns problemas.
+
+Os três passos úteis dos algoritmos de divisão e conquista, que se aplicam ao merge sort são:
+	- Dividir: Calcula o ponto médio do sub-arranjo, o que demora um tempo constante {\displaystyle \Theta (1)}{\displaystyle \Theta (1)};
+	- Conquistar: Recursivamente resolve dois subproblemas, cada um de tamanho n/2, o que contribui com {\displaystyle 2T(n/2)}{\displaystyle 2T(n/2)} para o tempo de execução;
+	- Combinar: Unir os sub-arranjos em um único conjunto ordenado, que leva o tempo {\displaystyle \Theta (n)}{\displaystyle \Theta (n)}.
+
+Complexidade:
+	- Pior caso: O(nlogn)
+	- Caso medio: O(nlogn)
+	- Melhor caso: O(nlogn)
+
+*/
 public class MergeSort<T extends Comparable<T>> {
 
 	public void sort(T[] array, int left, int right) {
